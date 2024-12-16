@@ -3,6 +3,19 @@ languageCode = 'en-us'
 title = 'My Personal Blog'
 theme = 'ananke'
 
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
 [params]
   text_color = ""
   author = ""
