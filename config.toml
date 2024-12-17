@@ -1,50 +1,30 @@
-baseURL = '/'
+baseURL = "/"
 languageCode = 'en-us'
-title = 'My Personal Blog'
-theme = 'PaperMod'
+title = "My Personal Blog"
+theme = "PaperMod"
+paginate = 5
 
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 
-[minify]
-disableXML = true
-minifyOutput = true
-
-[build]
-  writeStats = true
-
-[module]
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-
-  [[module.mounts]]
-    source = "node_modules"
-    target = "assets/node_modules"
-
 [params]
-  env = "production"
-  title = "My Personal Blog"
-  description = "Welcome to my personal blog"
-  keywords = ["Blog", "Portfolio", "PaperMod"]
-  author = "Your Name"
-  DateFormat = "January 2, 2006"
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
+env = "production"
+title = "My Personal Blog"
+description = "Welcome to my personal blog"
+author = "Your Name"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+DateFormat = "January 2, 2006"
+disableThemeToggle = false
+UseHugoToc = true
+keywords = ["Blog", "Portfolio", "PaperMod"]
 
   [params.homeInfoParams]
   Title = "Welcome to My Blog 👋"
