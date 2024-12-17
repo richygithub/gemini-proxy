@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 description: "Learn more about who I am and what I do"
+layout: "about"
 featured_image: '/images/about-bg.jpg'
 ---
 
@@ -10,13 +11,14 @@ Welcome to my personal corner of the internet! I'm passionate about technology, 
 
 ## My Background
 
-[Add your background information here]
+I am a technology enthusiast and developer who loves to learn and share knowledge. Through this blog, I aim to document my journey and help others learn from my experiences.
 
 ## My Interests
 
-- Technology
-- Writing
-- [Add more interests]
+- Software Development
+- Technology Trends
+- Writing and Blogging
+- Open Source Projects
 
 ## Contact
 

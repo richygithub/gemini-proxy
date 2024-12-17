@@ -1,10 +1,9 @@
 ---
 title: "Welcome to My Blog"
-date: 2024-12-16T21:38:15+08:00
+date: 2024-12-17T21:20:12+08:00
 draft: false
 tags: ["welcome", "first"]
 categories: ["general"]
-featured_image: "/images/welcome.jpg"
 description: "Welcome to my personal blog! This is my first post."
 ---
 
