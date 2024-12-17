@@ -1,53 +1,22 @@
 baseURL = "/"
-languageCode = 'en-us'
+languageCode = "en-us"
 title = "My Personal Blog"
 theme = "PaperMod"
-paginate = 5
-
-enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
 
 [params]
-env = "production"
-title = "My Personal Blog"
-description = "Welcome to my personal blog"
-author = "Your Name"
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowRssButtonInSectionTermList = true
-DateFormat = "January 2, 2006"
-disableThemeToggle = false
-UseHugoToc = true
-keywords = ["Blog", "Portfolio", "PaperMod"]
-
-  [params.homeInfoParams]
-  Title = "Welcome to My Blog 👋"
-  Content = """
-Welcome to my personal blog! Here I share my thoughts and experiences.
-"""
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/yourusername"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
     name = "Posts"
     url = "/posts/"
     weight = 10
+
   [[menu.main]]
-    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 20
-
-[security]
-  [security.funcs]
-    getenv = ['^HUGO_', '^VERCEL_']

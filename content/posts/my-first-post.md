@@ -1,15 +1,10 @@
 ---
 title: "Welcome to My Blog"
-date: 2024-12-17T21:20:12+08:00
+date: 2024-12-17T21:21:32+08:00
 draft: false
-tags: ["welcome", "first"]
-categories: ["general"]
-description: "Welcome to my personal blog! This is my first post."
 ---
 
-# Welcome to My Blog!
-
-Hello and welcome to my personal blog! This is my first post, and I'm excited to share my thoughts and experiences with you.
+Welcome to my personal blog! This is my first post, and I'm excited to share my thoughts and experiences with you.
 
 ## What to Expect
 

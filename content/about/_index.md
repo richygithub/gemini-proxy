@@ -1,11 +1,6 @@
 ---
 title: "About Me"
-description: "Learn more about who I am and what I do"
-layout: "about"
-featured_image: '/images/about-bg.jpg'
 ---
-
-# About Me
 
 Welcome to my personal corner of the internet! I'm passionate about technology, writing, and sharing knowledge with others.
 
