@@ -1,6 +1,7 @@
 baseURL = "/"
 title = "My Blog"
-theme = "PaperMod"
+theme = "basic"
+languageCode = "en-us"
 
 [menu]
   [[menu.main]]

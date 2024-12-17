@@ -1,12 +1,9 @@
 {
   "build": {
     "env": {
-      "HUGO_VERSION": "0.125.7",
-      "HUGO_ENV": "production",
-      "HUGO_ENABLEGITINFO": "true"
+      "HUGO_VERSION": "0.92.2"
     }
   },
-  "buildCommand": "hugo --minify",
-  "framework": "hugo",
+  "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public"
 }

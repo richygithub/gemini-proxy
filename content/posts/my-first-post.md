@@ -1,7 +1,7 @@
----
-title: First Post
-date: 2024-12-17T21:23:05+08:00
----
++++
+title = "First Post"
+date = "2024-12-17"
++++
 
 This is my first blog post.
 
