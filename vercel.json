@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.119.0"
+    }
+  },
+  "buildCommand": "hugo --gc --minify",
+  "framework": "hugo",
+  "outputDirectory": "public"
+}

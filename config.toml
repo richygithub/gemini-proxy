@@ -1,7 +1,10 @@
-baseURL = 'https://your-blog-url.netlify.app/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'My Personal Blog'
 theme = 'ananke'
+
+[build]
+  writeStats = true
 
 [module]
   [[module.mounts]]
@@ -22,7 +25,6 @@ theme = 'ananke'
   favicon = ""
   site_logo = ""
   description = "Welcome to my personal blog"
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/
   background_color_class = "bg-black"
   recent_posts_number = 3
 
@@ -39,3 +41,7 @@ theme = 'ananke'
     name = "About"
     url = "/about/"
     weight = 3
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^VERCEL_']
