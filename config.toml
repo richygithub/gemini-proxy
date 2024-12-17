@@ -1,7 +1,16 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'My Personal Blog'
-theme = 'ananke'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
 
 [build]
   writeStats = true
@@ -20,27 +29,44 @@ theme = 'ananke'
     target = "assets/node_modules"
 
 [params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
+  env = "production"
+  title = "My Personal Blog"
   description = "Welcome to my personal blog"
-  background_color_class = "bg-black"
-  recent_posts_number = 3
+  keywords = ["Blog", "Portfolio", "PaperMod"]
+  author = "Your Name"
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+  Title = "Welcome to My Blog 👋"
+  Content = """
+Welcome to my personal blog! Here I share my thoughts and experiences.
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/yourusername"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
+    identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 2
+    weight = 10
   [[menu.main]]
+    identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 20
 
 [security]
   [security.funcs]
