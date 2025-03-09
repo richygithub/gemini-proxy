@@ -7,12 +7,5 @@
         "Access-Control-Allow-Origin": "*" 
       }
     }
-  ],
-  "build": {
-    "env": {
-      "HUGO_VERSION": "0.92.2"
-    }
-  },
-  "buildCommand": "hugo --gc --minify",
-  "outputDirectory": "public"
+  ]
 }
