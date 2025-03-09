@@ -18,7 +18,6 @@
   ],
   "framework": null,       
   "build": {
-    "command": "npm install && echo 'Build complete'",
     "outputDirectory": "public"
   }
 }
