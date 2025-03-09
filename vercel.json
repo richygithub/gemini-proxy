@@ -16,8 +16,6 @@
       "dest": "/public/$1"
     }
   ],
-  "framework": null,       
-  "build": {
-    "outputDirectory": "public"
-  }
+  "framework": null
+
 }
