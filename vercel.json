@@ -1,9 +1,24 @@
 {
-  "rewrites":[
+  "version": 2,
+  "builds": [
     {
-      "source":"/api/(.*)",
-      "destination":"/api/proxy"
+      "src": "api/*.js",  
+      "use": "@vercel/node"
     }
-  ]
-
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)", 
+      "dest": "/api/proxy" 
+    },
+    {
+      "src": "/(.*)",      
+      "dest": "/public/$1"
+    }
+  ],
+  "framework": null,       
+  "build": {
+    "command": "npm install && echo 'Build complete'",
+    "outputDirectory": "public"
+  }
 }
